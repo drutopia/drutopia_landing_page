@@ -1,0 +1,16 @@
+name: 'Landing page'
+description: 'Provides Landing page content type and related configuration. Landing pages can be used for custom pages such as the home page.'
+type: module
+core: 8.x
+dependencies:
+  - drutopia_core
+  - ds
+  - entity_reference_revisions
+  - field
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - pathauto
+  - user
+package: Drutopia
