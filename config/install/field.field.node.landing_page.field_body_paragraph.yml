@@ -6,6 +6,7 @@ dependencies:
     - node.type.landing_page
     - paragraphs.paragraphs_type.file
     - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.slide
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -26,6 +27,7 @@ settings:
       text: text
       file: file
       image: image
+      slide: slide
     target_bundles_drag_drop:
       text:
         enabled: true
@@ -39,4 +41,7 @@ settings:
       update:
         weight: -6
         enabled: false
+      slide:
+        enabled: true
+        weight: 8
 field_type: entity_reference_revisions
