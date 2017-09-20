@@ -6,6 +6,7 @@ dependencies:
   - drutopia_core
   - ds
   - entity_reference_revisions
+  - exclude_node_title
   - field
   - menu_ui
   - node
