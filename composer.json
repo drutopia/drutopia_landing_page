@@ -6,10 +6,19 @@
   "homepage": "https://gitlab.com/drutopia/drutopia_landing_page",
   "minimum-stability": "dev",
   "require": {
+    "cweagans/composer-patches": "^1.5.0",
+    "drupal/config_actions": "^1.0-beta1",
     "drupal/ctools": "^3.0",
     "drupal/ds": "^3.0-rc1",
     "drupal/exclude_node_title": "^1.0-beta1",
     "drupal/pathauto": "^1.0",
     "drupal/token": "^1.0"
+  },
+  "extra": {
+    "patches": {
+      "drupal/config_actions": {
+        "Error when applying action and the target key doesn't exist": "https://www.drupal.org/files/issues/config_actions-transform-2911629-2.patch"
+      }
+    }
   }
 }
