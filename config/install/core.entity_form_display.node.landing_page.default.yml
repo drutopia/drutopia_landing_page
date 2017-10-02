@@ -3,8 +3,10 @@ status: true
 dependencies:
   config:
     - field.field.node.landing_page.field_body_paragraph
+    - field.field.node.landing_page.field_meta_tags
     - node.type.landing_page
   module:
+    - metatag
     - paragraphs
     - path
 id: node.landing_page.default
@@ -29,6 +31,12 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
+    region: content
+  field_meta_tags:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   path:
     type: path
