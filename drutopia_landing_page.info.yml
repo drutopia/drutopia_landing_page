@@ -10,6 +10,7 @@ dependencies:
   - exclude_node_title
   - field
   - menu_ui
+  - metatag
   - node
   - paragraphs
   - path
