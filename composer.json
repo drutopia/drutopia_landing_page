@@ -9,11 +9,11 @@
     "cweagans/composer-patches": "^1.5.0",
     "drupal/config_actions": "^1.0-beta1",
     "drupal/ctools": "^3.0",
+    "drupal/drutopia_seo": "1.x-dev",
     "drupal/ds": "^3.0-rc1",
     "drupal/exclude_node_title": "^1.0-beta1",
     "drupal/pathauto": "^1.0",
-    "drupal/token": "^1.0",
-    "drupal/drutopia_seo": "1.x-dev"
+    "drupal/token": "^1.0"
   },
   "extra": {
     "patches": {
