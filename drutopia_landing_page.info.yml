@@ -1,4 +1,4 @@
-name: 'Landing page'
+name: 'Drutopia Landing Page'
 description: 'Provides Landing page content type and related configuration. Landing pages can be used for custom pages such as the home page.'
 type: module
 core: 8.x
