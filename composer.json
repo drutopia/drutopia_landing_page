@@ -14,12 +14,5 @@
     "drupal/exclude_node_title": "^1.0-beta1",
     "drupal/pathauto": "^1.0",
     "drupal/token": "^1.0"
-  },
-  "extra": {
-    "patches": {
-      "drupal/config_actions": {
-        "Error when applying action and the target key doesn't exist": "https://www.drupal.org/files/issues/config_actions-transform-2911629-2.patch"
-      }
-    }
   }
 }
