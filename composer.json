@@ -17,7 +17,6 @@
         "drupal/drutopia_seo": "^1.0-alpha1",
         "drupal/ds": "^3.0-rc1",
         "drupal/exclude_node_title": "^1.0-beta1",
-        "drupal/field_token_value": "^1.0",
         "drupal/pathauto": "^1.0",
         "drupal/token": "^1.0"
     }
